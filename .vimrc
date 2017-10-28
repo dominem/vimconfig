@@ -28,6 +28,8 @@ Bundle 'Valloric/YouCompleteMe'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/Vim-Rails'
 Plugin 'scrooloose/NerdTree'
+Plugin 'pangloss/vim-javascript'
+Plugin 'leshill/vim-json'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -54,3 +56,6 @@ set hlsearch
 
 " Highlight the match for the string while you are typing it
 set incsearch
+
+" pangloss/vim-javascript settings:
+let g:javascript_plugin_flow = 1
