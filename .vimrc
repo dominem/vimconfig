@@ -59,3 +59,6 @@ set incsearch
 
 " pangloss/vim-javascript settings:
 let g:javascript_plugin_flow = 1
+
+" Absolute and relative line numbers
+set number relativenumber
