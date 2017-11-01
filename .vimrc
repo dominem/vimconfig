@@ -30,6 +30,7 @@ Plugin 'tpope/Vim-Rails'
 Plugin 'scrooloose/NerdTree'
 Plugin 'pangloss/vim-javascript'
 Plugin 'leshill/vim-json'
+Plugin 'altercation/vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -62,3 +63,10 @@ let g:javascript_plugin_flow = 1
 
 " Absolute and relative line numbers
 set number relativenumber
+
+" Solarized color scheme
+syntax on
+let g:solarized_termincolors=256
+set t_Co=256
+"set background=dark
+"colorscheme solarized
