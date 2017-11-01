@@ -14,7 +14,7 @@ Plugin 'gmarik/Vundle.vim'
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
 
 " SimpylFold plugin
-Plugin 'tmhedberg/SimpylFold'
+"Plugin 'tmhedberg/SimpylFold'
 
 let g:SimpylFold_docstring_preview=1
 
@@ -22,20 +22,21 @@ let g:SimpylFold_docstring_preview=1
 Plugin 'vim-scripts/indentpython.vim'
 
 " Auto-complete Plugin
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 
 " Ruby on Rails plugins
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/Vim-Rails'
+"Plugin 'vim-ruby/vim-ruby'
+"Plugin 'tpope/Vim-Rails'
 Plugin 'scrooloose/NerdTree'
 Plugin 'pangloss/vim-javascript'
 Plugin 'leshill/vim-json'
-Plugin 'altercation/vim-colors-solarized'
+"Plugin 'altercation/vim-colors-solarized'
+Plugin 'jiangmiao/auto-pairs'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-set omnifunc=syntaxcomplete#Complete
+"set omnifunc=syntaxcomplete#Complete
 set splitbelow
 set splitright
 
@@ -46,11 +47,11 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Enable folding
-set foldmethod=indent
-set foldlevel=99
+"set foldmethod=indent
+"set foldlevel=99
 
 " Enable folding with the spacebar
-nnoremap <space> za
+"nnoremap <space> za
 
 " Highlight search set
 set hlsearch
