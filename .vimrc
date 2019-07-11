@@ -32,6 +32,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'leshill/vim-json'
 "Plugin 'altercation/vim-colors-solarized'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'rust-lang/rust.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
