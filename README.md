@@ -1,7 +1,7 @@
 # vimconfig
 
 1. Install Vundle from https://github.com/VundleVim/Vundle.vim
-2. Override your .vimrc and .vim files by running `chmod +x install && ./install`
+2. Override config files and install vim plugins by running `chmod +x install && ./install`
 
 ## (Optional) Install and use terminator for Solarized colorscheme
 

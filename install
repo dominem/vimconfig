@@ -8,3 +8,6 @@ cp -fv .vimrc ~/
 
 # Copy .vim files.
 cp -frv .vim ~/
+
+# Install vim plugins.
+vim +PluginInstall +qall
