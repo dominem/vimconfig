@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Run this script from the root of the repository.
+# Make sure to backup your .vimrc and .vim files before running the script.
+
+# Copy .vimrc file.
+cp -fv .vimrc ~/
+
+# Copy .vim files.
+cp -frv .vim ~/
