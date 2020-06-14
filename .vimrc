@@ -34,6 +34,7 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'stephpy/vim-yaml'
 Plugin 'guns/vim-clojure-static'
+Plugin 'luochen1990/rainbow'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -74,3 +75,7 @@ let g:solarized_termincolors=256
 set t_Co=256
 "set background=dark
 "colorscheme solarized
+
+" luochen1990/rainbow
+" set to 0 if you want to enable it later via :RainbowToggle
+let g:rainbow_active = 1
