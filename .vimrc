@@ -11,18 +11,9 @@ Plugin 'gmarik/Vundle.vim'
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
 
-" SimpylFold plugin
 "Plugin 'tmhedberg/SimpylFold'
-
-let g:SimpylFold_docstring_preview=1
-
-" Auto-Indentation Plugin
 Plugin 'vim-scripts/indentpython.vim'
-
-" Auto-complete Plugin
 "Bundle 'Valloric/YouCompleteMe'
-
-" Ruby on Rails plugins
 "Plugin 'vim-ruby/vim-ruby'
 "Plugin 'tpope/Vim-Rails'
 Plugin 'scrooloose/NerdTree'
@@ -35,6 +26,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'stephpy/vim-yaml'
 Plugin 'guns/vim-clojure-static'
 Plugin 'luochen1990/rainbow'
+Plugin 'guns/vim-sexp'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -75,6 +67,9 @@ let g:solarized_termincolors=256
 set t_Co=256
 "set background=dark
 "colorscheme solarized
+
+" 'tmhedberg/SimpylFold'
+"let g:SimpylFold_docstring_preview=1
 
 " luochen1990/rainbow
 " set to 0 if you want to enable it later via :RainbowToggle
