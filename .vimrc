@@ -27,6 +27,7 @@ Plugin 'stephpy/vim-yaml'
 Plugin 'guns/vim-clojure-static'
 Plugin 'luochen1990/rainbow'
 Plugin 'guns/vim-sexp'
+Plugin 'ziglang/zig.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
