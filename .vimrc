@@ -28,6 +28,7 @@ Plugin 'guns/vim-clojure-static'
 Plugin 'luochen1990/rainbow'
 Plugin 'guns/vim-sexp'
 Plugin 'ziglang/zig.vim'
+Plugin 'elixir-editors/vim-elixir'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
