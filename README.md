@@ -1,9 +1,10 @@
 # vimconfig
 
-1. Install Vundle from https://github.com/VundleVim/Vundle.vim
-2. Run `./install` to override vim config and install plugins.
+1. `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`.
+2. `git clone git@github.com:dominem/vimconfig.git`.
+3. Run `./install` to override vim config and install plugins.
 
 ## (Optional) Install terminator with solarized colorscheme
 
 1. `sudo apt install terminator`
-2. Follow instructions in this repo: https://github.com/ghuntley/terminator-solarized
+2. Follow the instructions in this repo: https://github.com/ghuntley/terminator-solarized
