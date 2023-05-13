@@ -69,7 +69,8 @@ syntax on
 let g:solarized_termincolors=256
 set t_Co=256
 "set background=dark
-"colorscheme solarized
+"colorscheme koehler
+colorscheme pablo
 
 " 'tmhedberg/SimpylFold'
 "let g:SimpylFold_docstring_preview=1
